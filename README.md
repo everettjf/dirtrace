@@ -2,7 +2,7 @@
 
 `dirtrace` generates chromium's trace event format json file from directory content file size
 
-![Xcode.app](/screen.png)
+![Xcode](/screen.png)
 
 ## Install
 
