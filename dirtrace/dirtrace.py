@@ -139,7 +139,8 @@ def main():
 
     dirtrace(dir_path, output_path)
 
-    print('done:)')
+    print('Output file: {}'.format(output_path))
+    print('Done, drag the output file into Chrome\'s chrome://tracing/')
 
 
 def test():

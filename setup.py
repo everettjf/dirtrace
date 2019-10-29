@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="dirtrace",
-    version="0.0.1",
+    version="0.0.2",
     description="generate chromium's trace event format json file from directory content file size",
     url="https://github.com/everettjf/dirtrace",
     author="everettjf",
@@ -14,7 +14,6 @@ setup(
          dirtrace = dirtrace.dirtrace:main
     """,
     install_requires=[
-        'six>=1.10.0',
     ],
     zip_safe=False
 )
