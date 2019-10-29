@@ -1,10 +1,16 @@
 # dirtrace
 
-tracing directory content size
-
 `dirtrace` generates chromium's trace event format json file from directory content file size
 
+![Xcode.app](screen.png)
 
+## Install
+
+```
+pip install dirtrace
+```
+
+## Usage
 
 ```
 Usage: 
@@ -20,4 +26,11 @@ Options:
   -o OUT, --out=OUT  output json path
 ```
 
+## Support
+
+python 2.x && 3.x
+
+---
+
 *wish you enjoy :)*
+
