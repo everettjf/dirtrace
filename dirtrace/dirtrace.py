@@ -68,7 +68,8 @@ def dirtrace(path, outputfile):
         pending_dirs.append((parent_dir, True))
 
         # begin dir
-        dir_name = parent_dir.split('/')[-1]
+        dir_name = parent_dir.replace('\\', '/').split('/')[-1]
+
         log.append_dir_begin(dir_name, timestamp)
 
         # loop dir
