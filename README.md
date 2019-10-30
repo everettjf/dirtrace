@@ -1,6 +1,6 @@
 # dirtrace
 
-`dirtrace` generates chromium's trace event format json file from directory content file size
+`dirtrace` generates chromium's trace event format json file from directory based on file size
 
 ![Xcode](/screen.png)
 
