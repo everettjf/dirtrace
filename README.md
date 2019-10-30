@@ -34,6 +34,10 @@ Options:
 
 Open Chrome browser, and drag output json file into Chrome's `chrome://tracing/`
 
+- Directory items start with `D_`
+- File items start with `F_`
+
+
 ## Support
 
 python 2.x && 3.x
